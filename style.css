@@ -1,4 +1,4 @@
-@media only screen and (min-width:375px) and (max-width:414px){
+@media only screen and (min-width:370px) and (max-width:450px){
 
 .rectangle{
     display: flex;
@@ -40,7 +40,7 @@
     color: black;
     text-align: center;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 20px; 
@@ -50,6 +50,7 @@
 
 .banner{
 padding-top: 20%;
+zoom: 0%;
 }
 
 .About{
@@ -57,7 +58,7 @@ padding-top: 20%;
     padding-left: 10%;
     width: 496px;
     height: 50px;
-    color: var(--theme-1-neutrals-1, #091E42);
+    color: var(--theme-1-neutrals-1, #1c5ecf);
     text-align: center;
 /* Header / 2 */
 font-family: Poppins;
@@ -67,9 +68,14 @@ font-weight: 700;
 line-height: 30px; /* 130% */
 }
 
+.info{
+    color: var(--theme-1-neutrals-1, #476cac);
+
+}
+
 .Org{
     padding-left: 10%;
-    padding-top: 70%;
+    padding-top: 90%;
     width: 496px;
     height: 46px;
     color: var(--theme-1-neutrals-1, #091E42);
@@ -91,7 +97,7 @@ line-height: 20px;
 }
 
 .vice{
-    padding-top: 30%;
+    padding-top: 10%;
     display: flex;
     padding-left: 4%;
 
@@ -101,18 +107,58 @@ line-height: 20px;
     font-size: 22px;
 }
 
-.VP1{
-font-size: medium;
+.rank{
+font-size: large;
 }
 
 
 .three{
-padding-left: 30%;
+    padding-left: 30%;
+
 }
 
 .secretaries{
-    padding-top: 30%;
+    padding-top: 10%;
+    padding-right: 40%;
     display: flex;
 }
+
+.sec1{
+    white-space: nowrap;
+
+    font-size: 20px;
+
+}
+
+.sec2{
+    font-size: 20px;
+    white-space: nowrap;
+}
+.rank{
+    font-size: large;
+    white-space: nowrap;
+
+}
+
+.others{
+    padding-top: 10%;
+    padding-right: 40%;
+    display: flex;
+}
+
+.last{
+    padding-top: 10%;
+
+}
+
+.links{
+    position: absolute;
+    bottom: 0%;
+
+    height: 200px;
+    width: 200px;
+    background-color: #1c5ecf;
+}
+
 
 }
