@@ -37,15 +37,11 @@
 }
 
 .contact{
-    color: black;
-    text-align: center;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; 
     white-space: nowrap;
-
 }
 
 .banner{
@@ -58,7 +54,7 @@ zoom: 0%;
     padding-left: 10%;
     width: 496px;
     height: 50px;
-    color: var(--theme-1-neutrals-1, #1c5ecf);
+    color: var(--theme-1-neutrals-1, #113779);
     text-align: center;
 /* Header / 2 */
 font-family: Poppins;
@@ -69,7 +65,7 @@ line-height: 30px; /* 130% */
 }
 
 .info{
-    color: var(--theme-1-neutrals-1, #476cac);
+    color: var(--theme-1-neutrals-1, #113779);
 
 }
 
@@ -78,7 +74,7 @@ line-height: 30px; /* 130% */
     padding-top: 90%;
     width: 496px;
     height: 46px;
-    color: var(--theme-1-neutrals-1, #091E42);
+    color: var(--theme-1-neutrals-1, #113779);
     text-align: center;
 /* Header / 2 */
 font-family: Poppins;
@@ -89,6 +85,7 @@ line-height: 20px;
 }
 
 .one{
+    
     padding-top: 10%;
 }
 
@@ -152,12 +149,51 @@ font-size: large;
 }
 
 .links{
+    padding-top: 500%;
     position: absolute;
-    bottom: 0%;
 
-    height: 200px;
-    width: 200px;
-    background-color: #1c5ecf;
+}
+
+.l1{
+
+    width: 600px;
+    height: 400px;
+    background: #3b4a7b;
+}
+
+.Facebook{
+    padding-top:5%;
+    padding-left: 40%;
+    justify-content: center;
+}
+
+.fb{
+    color: white;
+    font-size: large;
+    
+}
+
+
+.cont{
+    text-align: center;
+    /* Header / 2 */
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    padding-top: 5%;
+}
+.mail{
+    padding-left: 10%;
+}
+
+.office{
+   padding-left: 20%;
+   color: white;
+   font-family: Poppins;
+   font-style: normal;
+    line-height:  1.5;
 }
 
 
