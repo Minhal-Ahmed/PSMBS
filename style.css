@@ -46,7 +46,11 @@
 
 .banner{
 padding-top: 20%;
-zoom: 0%;
+}
+
+.ban{
+    width: 600px;
+    height: 300px;
 }
 
 .About{
@@ -118,21 +122,18 @@ line-height: 20px;
 font-size: large;
 }
 
-
 .three{
     padding-left: 30%;
 
 }
-
 .secretaries{
     padding-top: 10%;
-    padding-right: 40%;
+    padding-right: 10%;
     display: flex;
 }
 
 .sec1{
     white-space: nowrap;
-
     font-size: 20px;
 
 }
@@ -149,7 +150,7 @@ font-size: large;
 
 .others{
     padding-top: 10%;
-    padding-right: 40%;
+    padding-right: 60%;
     display: flex;
 }
 
