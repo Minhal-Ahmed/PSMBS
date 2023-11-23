@@ -275,7 +275,7 @@ font-size: large;
     }
     
     .contact{
-        padding-left: 260%;
+        padding-left: 30%;
         font-family: Poppins;
         font-size: 20px;
         font-style: normal;
@@ -289,7 +289,7 @@ font-size: large;
     }
 
     .ban{
-        width: 1440px;
+        width: 1200px;
         height: 700px;
 
     }
@@ -388,14 +388,14 @@ font-size: large;
     }
     
 .links{
-    padding-top: 120%;
+    padding-top: 200%;
     position: absolute;
 
 }
 
 .l1{
 
-    width: 1440px;
+    width: 1200px;
     height: 500px;
     background: #3b4a7b;
 }
